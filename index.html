@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxury Event Organizer | PT. Zeryn Komunika</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ================= NAVIGATION ================= -->
+  <nav>
+    <div class="nav-container">
+      <!-- Logo kiri -->
+      <div class="nav-logo">
+        <img src="Logo.png" alt="Logo" class="logo-img" />
+        <span class="logo-text">PT. ZERYN KOMUNIKA</span>
+      </div>
+
+      <!-- Toolbar tengah -->
+      <div class="nav-pill">
+        <span class="nav-indicator"></span>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="login.html" class="nav-link">Login</a></li>
+        </ul>
+      </div>
+
+      <!-- Tombol Light/Dark Mode -->
+      <label class="theme-switch">
+        <input type="checkbox" id="theme-toggle">
+        <div class="track">
+          <div class="knob">
+            <span class="icon-sun">☀️</span>
+            <span class="icon-moon">🌙</span>
+          </div>
+        </div>
+      </label>
+    </div>
+  </nav>
+
+  <!-- ================= HOME (BANNER PAGE) ================= -->
+  <section class="intro" id="home">
+    <div class="home-banner" role="img" aria-label="Company banner"></div>
+  
+    <!-- ======== TEKS BERJALAN DI BAWAH BANNER ======== -->
+    <div class="scrolling-text">
+      <div class="scrolling-track">
+        <span>Creative Communication • Modern Media • Interactive Solutions • Zeryn Komunika • Building Modern Connections • </span>
+        <span>Creative Communication • Modern Media • Interactive Solutions • Zeryn Komunika • Building Modern Connections • </span>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- ================= HOME (PAGE 2 / HERO) ================= -->
+  <section class="hero" id="home-2">
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+
+    <div class="hero-content">
+      <h3 class="hero-tagline" id="tagline">CRAFTING UNFORGETTABLE EXPERIENCES</h3>
+      <h1 class="hero-title" id="hero-title">Elevate Your Events</h1>
+      <p class="hero-subtitle" id="hero-subtitle">
+        Where Vision Meets Execution in Perfect Harmony
+      </p>
+      <a href="#about" class="cta-button" id="cta-button">Start Your Journey</a>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="about" id="about">
+    <h2 class="section-title" id="about-title">About Us</h2>
+    <p class="section-subtitle">Who We Are</p>
+
+    <div class="about-content">
+      <div class="about-text" id="about-text">
+        We are a premier event organization company specializing in creating
+        extraordinary experiences that leave lasting impressions. With years
+        of expertise in managing large-scale events, we bring innovation,
+        precision, and creativity to every project. Our team of dedicated
+        professionals works tirelessly to transform your vision into reality,
+        ensuring every detail is executed flawlessly.
+      </div>
+      <div class="about-visual"></div>
+    </div>
+  </section>
+
+  <!-- ================= PORTFOLIO / SERVICES ================= -->
+  <section class="services" id="portfolio">
+    <h2 class="section-title" id="services-title">Our Services</h2>
+    <p class="section-subtitle">
+      From Concept to Execution — We Make Every Detail Matter
+    </p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="service-icon">🏢</span>
+        <h3 class="service-title" id="service-1-title">Corporate Events</h3>
+        <p class="service-description">
+          Professional planning and execution for business gatherings,
+          conferences, and corporate galas.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <span class="service-icon">🎉</span>
+        <h3 class="service-title" id="service-2-title">Luxury Celebrations</h3>
+        <p class="service-description">
+          Exclusive private parties, weddings, and high-end celebrations
+          with a touch of sophistication.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <span class="service-icon">🎬</span>
+        <h3 class="service-title" id="service-3-title">Large-Scale Productions</h3>
+        <p class="service-description">
+          Full-scale event management, from creative direction to on-site
+          production for unforgettable experiences.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="contact" id="contact">
+    <div class="contact-content">
+      <h2 class="section-title" id="contact-title">Let's Create Magic Together</h2>
+      <p class="section-subtitle" id="contact-subtitle">
+        Ready to bring your event vision to life? Get in touch with our team today.
+      </p>
+      <a href="mailto:hello@zerynkomunika.com" class="contact-button" id="contact-button">Get In Touch</a>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <p>© 2025 PT. Zeryn Komunika. All Rights Reserved.</p>
+  </footer>
+
+  <script src="config.js"></script>
+</body>
+</html>
